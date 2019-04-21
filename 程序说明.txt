@@ -1,0 +1,13 @@
+train文件夹：训练集图片
+Test文件夹：测试集图片
+
+train_data.txt：存放训练集图片名称和路径的txt文件
+test_data.txt:存放测试集图片名称和路径的txt文件
+precision.txt:存放每类precision
+
+img_resize.py：将图片缩放成64*64的脚本
+img_div_to_train_test.py:将数据集按4：1的比例随机分为训练集和测试集
+img_load.py：将图片读取为数组，并生成对应的标签
+cnn_model.py：cnn网络搭建和训练
+
+直接运行main.py即可开始运行程序
